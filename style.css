@@ -216,6 +216,7 @@ li {
 }
 
 
+
 .card {
     background-color: #3D2942;
     color: white;
@@ -329,6 +330,8 @@ label {
 }
 
 
+/* ---------- footer qismi--------- */
+
 .color {
     color: white;
     margin-left: 10px;
@@ -367,4 +370,140 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+/* ---------------footer tugadi--------------- */
+
+
+/* <!-- responsive start --> */
+
+@media (max-width: 476px){
+    
+    .nav_senter_text {
+        font-family: Oxanium;
+        font-size: 40px;
+        font-weight: 700;
+        height: 200px;
+        width: 350px;
+        text-align: center;
+        border-radius: nullpx;
+        color: #F5FBF2;
+        margin: 100px;
+}
+
+.nav_list_item {
+
+    color: #896E6E;
+    font-family: 'Oxanium', cursive;
+    font-size: px;
+}
+
+.right_btn{
+    width: 145px;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 100px;
+    margin-left: 110px;
+    
+}
+
+.nav_btn_one{
+    width: 700px;
+    height: 45px;
+}
+
+.nav_btn_two{
+    width: 700px;
+    height: 45px;
+}
+
+.follower{
+    font-size: 35px;
+}
+.followers {
+   margin-left: 60px;
+}
+
+.navRiht_img{
+    width: 350px;
+    margin-left: 100px;
+}
+
+.nav_list_item{
+    font-size: 13px;
+    
+}
+
+.pr_two{
+    margin-left: 65px;
+}
+
+.carusel_bottom_img{
+    width: 450px;
+    margin-left: 10px;
+    
+   
+}
+
+.card-img-top{
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.ozim-btn{
+    width: 800px;
+    height: 50px;
+    font-size: 13px;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.surish{
+    margin-left: 30px;
+}
+
+.ozim{
+    background-color: #3D2942;
+    color: white;
+    width: 10000px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+
+.yanacls{
+    margin-left: 10px;
+    width: 450px;
+}
+
+.header_inpt{
+    width: 250px;
+}
+
+.footer_imgcha{
+    width: 85px;
+}
+
+.footer_paragraf{
+    font-size: 12px;
+}
+
+.list-item>a{
+    font-size: 11px;
+    line-height: 0px;
+}
+
+.right_btn{
+    width: 150px;
+    margin-right: 5px;
+}
+
 }
