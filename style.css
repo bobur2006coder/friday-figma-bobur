@@ -377,7 +377,7 @@ label {
 
 /* <!-- responsive start --> */
 
-@media (max-width: 476px){
+@media (max-width: 576px){
     
     .nav_senter_text {
         font-family: Oxanium;
